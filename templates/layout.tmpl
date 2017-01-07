@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="iOS and web developer">
+		<meta name="author" content="Cleber Santos">
+		<link rel="shortcut icon" href="/img/ico/favicon.png">
+
+		<title>Cleber Santos - iOS and web developer</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link href="/css/bootstrap.css" rel="stylesheet">
+		<link href="/css/main.css" rel="stylesheet">
+		<link href="/css/zoom.css" rel="stylesheet">
+
+		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="navbar navbar-inverse navbar-static-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/">Cleber Santos</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="/work">Work</a></li>
+						<li><a href="/about">About</a></li>
+						<!--<li><a href="/blog">Blog</a></li>-->
+						<!--<li><a href="/contact">Contact</a></li>-->
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>
+
+		<!-- START CONTENT -->
+		{{ yield }}
+		<!-- END CONTENT -->
+
+		<div id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 centered">
+						<ul>
+							<li><a href="http://www.twitter.com/cleberwsantos"><i class="fa fa-twitter-square fa-1x"></i></a></li>
+							<li><a href="http://www.facebook.com/cleberwsantos"><i class="fa fa-facebook-square fa-1x"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/clebersantos"><i class="fa fa-linkedin-square fa-1x"></i></a></li>
+							<li><a href="https://github.com/binho"><i class="fa fa-github-square fa-1x"></i></a></li>
+							<li><a href="http://planetofvisions.tumblr.com"><i class="fa fa-tumblr-square fa-1x"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="/js/bootstrap.min.js"></script>
+		<script src="/js/zoom.min.js"></script>
+	</body>
+</html>
