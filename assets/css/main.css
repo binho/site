@@ -7,7 +7,7 @@
  * URL: http://blacktie.co
  */
 
-@import url(https://fonts.googleapis.com/css?family=Damion|Poppins:300,400);
+@import url(https://fonts.googleapis.com/css?family=Damion|Monoton|Pacifico|Poppins:300,400);
 
 body {
   	/*background: url('../img/background/geometry/geometry.png');*/
@@ -95,20 +95,27 @@ a:after {
 
 .navbar-inverse .navbar-nav > li > a {
 	color: #3498db;
-    font-weight: bold;
     text-transform: uppercase;
     font-size: 20px;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-	color: #34495e;
+	/*color: #34495e;*/
+    color: #2980b9;
 }
 
 /* logo */
 .navbar-brand {
     font-family: 'Damion', cursive;
-	font-size: 42px;
-    color: #000 !important;
+    /*font-family: 'Pacifico', cursive;*/
+
+	font-size: 46px;
+    color: #34495e !important;
+    /*color: #2980b9 !important;*/
+
+    -webkit-animation: glowAnimation 4s infinite;
+    -moz-animation: glowAnimation 4s infinite;
+    animation: glowAnimation 4s infinite;
 }
 
 .navbar-inverse .navbar-brand {
@@ -123,7 +130,6 @@ a:after {
   background-color: #1abc9c;
 }
 
-
 /* Helpers */
 
 .mt {
@@ -135,7 +141,6 @@ a:after {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-
 
 /* +++++ WRAP SECTIONS +++++ */
 
@@ -151,7 +156,6 @@ a:after {
 #ww h1 {
     font-family: 'Poppins', Arial, sans-serif;
     text-transform: uppercase;
-	color: #2ecc71;
 	font-size: 32px;
     font-weight: bold;
 }
@@ -199,7 +203,6 @@ a:after {
     color: #000;
 }
 
-
 /* +++++ Color Wraps / Blog Page +++++ */
 
 #grey {
@@ -213,8 +216,6 @@ a:after {
 	padding-bottom: 60px;
 	background-color: #ffffff;
 }
-
-
 
 /* Blog Date*/
 bd {
@@ -295,10 +296,21 @@ bt {
     color: orangered;
 }
 
-.project-name i:first-child {
+.project-name i:first-child, #www h3 i:first-child {
     padding-left: 10px;
+}
+
+/* indicate apple, android, html5 and other code with icon */
+.project-name i, #www h3 i {
+    color: #999;
 }
 
 h1.welcome-message {
     margin-bottom: 60px;
+}
+
+@-webkit-keyframes glowAnimation {
+    from { text-shadow: 0 0 8px cyan; }
+    50% { text-shadow: 0 0 30px cyan; }
+    to { text-shadow: 0 0 8px cyan; }
 }
