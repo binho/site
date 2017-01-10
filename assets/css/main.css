@@ -94,14 +94,15 @@ a:after {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-	color: #3498db;
+	color: #8870FF;
     text-transform: uppercase;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
 	/*color: #34495e;*/
-    color: #2980b9;
+    color: #5659C9;
 }
 
 /* logo */
@@ -110,12 +111,8 @@ a:after {
     /*font-family: 'Pacifico', cursive;*/
 
 	font-size: 46px;
-    color: #34495e !important;
+    color: #7f8c8d !important;
     /*color: #2980b9 !important;*/
-
-    -webkit-animation: glowAnimation 4s infinite;
-    -moz-animation: glowAnimation 4s infinite;
-    animation: glowAnimation 4s infinite;
 }
 
 .navbar-inverse .navbar-brand {
@@ -156,7 +153,7 @@ a:after {
 #ww h1 {
     font-family: 'Poppins', Arial, sans-serif;
     text-transform: uppercase;
-	font-size: 32px;
+	font-size: 28px;
     font-weight: bold;
 }
 
@@ -167,6 +164,10 @@ a:after {
 
 #www a {
     text-decoration: underline;
+}
+
+#www h3 {
+    color: #8870FF;
 }
 
 #footer {
@@ -306,11 +307,6 @@ bt {
 }
 
 h1.welcome-message {
+    color: #27ae60;
     margin-bottom: 60px;
-}
-
-@-webkit-keyframes glowAnimation {
-    from { text-shadow: 0 0 8px cyan; }
-    50% { text-shadow: 0 0 30px cyan; }
-    to { text-shadow: 0 0 8px cyan; }
 }
