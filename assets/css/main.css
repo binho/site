@@ -310,3 +310,15 @@ h1.welcome-message {
     color: #27ae60;
     margin-bottom: 60px;
 }
+
+a.download-resume {
+    color: #3498db;
+    text-decoration: none !important;
+    background: white;
+    padding: 3px 12px 3px 12px;
+    border: 1px solid #f5f5f5;
+}
+a.download-resume:hover {
+    background: #2ecc71;
+    color: white;
+}
