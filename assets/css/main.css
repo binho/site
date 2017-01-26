@@ -10,8 +10,7 @@
 @import url(https://fonts.googleapis.com/css?family=Damion|Monoton|Pacifico|Poppins:300,400);
 
 body {
-  	/*background: url('../img/background/geometry/geometry.png');*/
-    background: url('../img/background/geometry2/geometry2.png');
+  	background-color: white;
 
     font-family: 'Poppins', Arial, sans-serif;
     font-size: 18px;
@@ -108,10 +107,9 @@ a:after {
 /* logo */
 .navbar-brand {
     font-family: 'Damion', cursive;
-    /*font-family: 'Pacifico', cursive;*/
 
-	font-size: 46px;
-    color: #7f8c8d !important;
+	font-size: 43px;
+    color: #2c3e50 !important;
     /*color: #2980b9 !important;*/
 }
 
@@ -198,10 +196,10 @@ a:after {
 
 #footer a {
     font-size: 32px;
-    color: #777;
+    color: #888;
 }
 #footer a:hover {
-    color: #000;
+    color: #666;
 }
 
 /* +++++ Color Wraps / Blog Page +++++ */
@@ -326,3 +324,13 @@ a.download-resume:hover {
 .screenshot-border {
     border: 4px solid #000;
 }
+
+.col-xs-6 a {
+    display: inline-block;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color:#e5e5e5 !important;
+}
+
+
