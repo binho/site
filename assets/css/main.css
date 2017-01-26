@@ -10,7 +10,7 @@
 @import url(https://fonts.googleapis.com/css?family=Damion|Monoton|Pacifico|Poppins:300,400);
 
 body {
-  	background-color: white;
+  	background-color: #FFF;
 
     font-family: 'Poppins', Arial, sans-serif;
     font-size: 18px;
@@ -80,11 +80,12 @@ a:after {
 
 .navbar {
 	margin-bottom: 0px;
+    background-color: #edfaff !important;
 }
 
 .navbar-inverse {
-	padding-bottom: 50px;
-	padding-top: 50px;
+	padding-bottom: 25px;
+	padding-top: 25px;
 }
 
 .navbar-inverse {
@@ -111,6 +112,8 @@ a:after {
 	font-size: 43px;
     color: #2c3e50 !important;
     /*color: #2980b9 !important;*/
+
+    letter-spacing: -1px;
 }
 
 .navbar-inverse .navbar-brand {
@@ -305,7 +308,7 @@ bt {
 }
 
 h1.welcome-message {
-    color: #27ae60;
+    color: #8870FF;
     margin-bottom: 60px;
 }
 
