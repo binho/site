@@ -80,13 +80,21 @@ a:after {
 
 .navbar {
 	margin-bottom: 0px;
-    background-color: #edfaff !important;
+    /*background-color: #edfaff !important;*/
+
+    background: #edfaff;
+    background: -moz-linear-gradient(top, #edfaff 0%, #ffffff 100%);
+    background: -webkit-linear-gradient(top, #edfaff 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #edfaff 0%, #ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#edfaff', endColorstr='#ffffff', GradientType=0);
+
+    border: 0 !important;
 }
 
-.navbar-inverse {
-	padding-bottom: 25px;
-	padding-top: 25px;
-}
+/*.navbar-inverse {
+	padding-bottom: 15px;
+	padding-top: 35px;
+}*/
 
 .navbar-inverse {
 	background-color: transparent;
@@ -98,6 +106,7 @@ a:after {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold;
+    padding-top: 58px !important;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
@@ -114,6 +123,7 @@ a:after {
     /*color: #2980b9 !important;*/
 
     letter-spacing: -1px;
+    padding: 35px !important;
 }
 
 .navbar-inverse .navbar-brand {
@@ -136,8 +146,8 @@ a:after {
 }
 
 .pt {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 40px;
 }
 
 /* +++++ WRAP SECTIONS +++++ */
