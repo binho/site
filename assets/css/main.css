@@ -1,28 +1,20 @@
-/*
- * Author: Carlos Alvarez
- * URL: http://alvarez.is
- *
- * Project Name: STANLEY - Free Bootstrap 3 Theme
- * Version: 1.0
- * URL: http://blacktie.co
- */
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400);
 
-@import url(https://fonts.googleapis.com/css?family=Damion|Monoton|Pacifico|Poppins:300,400);
-
-body {
-  	background-color: #FFF;
-
+* {
     font-family: 'Poppins', Arial, sans-serif;
     font-size: 18px;
-    color: #333;
+    color: #2c3e50;
+}
 
+body, html {
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    color: #000;
+    font-weight: bold;
+    color: #34495e;
 }
 
 h1 {
@@ -43,30 +35,15 @@ p {
 
 /* Links */
 a {
-    color: #555;
+    color: #2c3e50;
     word-wrap: break-word;
-
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
 a:hover,
 a:focus {
-    color: #111;
+    opacity: 0.8;
     text-decoration: none;
     outline: 0;
-}
-
-a:before,
-a:after {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
  hr {
@@ -80,38 +57,42 @@ a:after {
 
 .navbar {
 	margin-bottom: 0px;
-    /*background-color: #edfaff !important;*/
+    border: 0 !important;
 
     background: #edfaff;
     background: -moz-linear-gradient(top, #edfaff 0%, #ffffff 100%);
     background: -webkit-linear-gradient(top, #edfaff 0%, #ffffff 100%);
     background: linear-gradient(to bottom, #edfaff 0%, #ffffff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#edfaff', endColorstr='#ffffff', GradientType=0);
-
-    border: 0 !important;
 }
-
-/*.navbar-inverse {
-	padding-bottom: 15px;
-	padding-top: 35px;
-}*/
 
 .navbar-inverse {
 	background-color: transparent;
 	border-color: transparent;
 }
 
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #8870FF !important;
+}
+
+.navbar-right {
+    margin-top: 35px;
+}
+
+.navbar-toggle {
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
 .navbar-inverse .navbar-nav > li > a {
-	color: #8870FF;
-    text-transform: uppercase;
+	color: #2c3e50;
     font-size: 20px;
     font-weight: bold;
-    padding-top: 58px !important;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-	/*color: #34495e;*/
-    color: #5659C9;
+    color: #2c3e50;
+    opacity: 0.7;
 }
 
 /* logo */
@@ -150,8 +131,6 @@ a:after {
 	padding-bottom: 40px;
 }
 
-/* +++++ WRAP SECTIONS +++++ */
-
 #ww {
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -162,9 +141,7 @@ a:after {
 }
 
 #ww h1 {
-    font-family: 'Poppins', Arial, sans-serif;
-    text-transform: uppercase;
-	font-size: 28px;
+	font-size: 26px;
     font-weight: bold;
 }
 
@@ -177,12 +154,7 @@ a:after {
     text-decoration: underline;
 }
 
-#www h3 {
-    color: #8870FF;
-}
-
 #footer {
-	/*background-color: #2f2f2f;*/
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -209,10 +181,13 @@ a:after {
 
 #footer a {
     font-size: 32px;
-    color: #888;
+    color: #FFF;
+    opacity: 1.0;
 }
+
 #footer a:hover {
-    color: #666;
+    color: #FFF;
+    opacity: 0.7;
 }
 
 /* +++++ Color Wraps / Blog Page +++++ */
@@ -318,19 +293,22 @@ bt {
 }
 
 h1.welcome-message {
-    color: #8870FF;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 a.download-resume {
-    color: #3498db;
+    color: #34495e;
     text-decoration: none !important;
     background: white;
-    padding: 3px 12px 3px 12px;
-    border: 1px solid #f5f5f5;
+    padding: 5px 12px 5px 12px;
+    border: 1px solid #e5e5e5;
 }
 a.download-resume:hover {
     background: #2ecc71;
+    border: 1px solid #27ae60;
+    color: white;
+}
+a.download-resume:hover i {
     color: white;
 }
 
@@ -346,4 +324,14 @@ a.download-resume:hover {
     border-color:#e5e5e5 !important;
 }
 
-
+ul.list-unstyled li {
+    display: block;
+    margin-bottom: 5px;
+}
+ul.list-unstyled a {
+    text-decoration: none !important;
+    color: #27ae60;
+}
+ul.list-unstyled a:hover {
+    opacity: 0.7;
+}
