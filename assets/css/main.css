@@ -1,7 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Poppins:300,400);
-
 * {
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     font-size: 18px;
     color: #2c3e50;
 }
@@ -12,15 +10,16 @@ body, html {
 }
 
 /* Titles */
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     color: #34495e;
 }
 
 h1 {
-	font-size: 35px;
-	margin-top: 30px;
-	margin-bottom: 30px;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -29,6 +28,7 @@ h2 {
 }
 
 /* Paragraph & Typographic */
+
 p {
     line-height: 28px;
     margin-bottom: 25px;
@@ -39,19 +39,19 @@ p {
 }
 
 /* Links */
+
 a {
     color: #2c3e50;
     word-wrap: break-word;
 }
 
-a:hover,
-a:focus {
+a:hover, a:focus {
     opacity: 0.8;
     text-decoration: none;
     outline: 0;
 }
 
- hr {
+hr {
     display: block;
     height: 1px;
     border: 0;
@@ -61,19 +61,18 @@ a:focus {
 }
 
 .navbar {
-	margin-bottom: 0px;
+    margin-bottom: 0px;
     border: 0 !important;
-
-    background: #edfaff;
-    background: -moz-linear-gradient(top, #edfaff 0%, #ffffff 100%);
-    background: -webkit-linear-gradient(top, #edfaff 0%, #ffffff 100%);
-    background: linear-gradient(to bottom, #edfaff 0%, #ffffff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#edfaff', endColorstr='#ffffff', GradientType=0);
+    background: #f5f5f5;
+    background: -moz-linear-gradient(top, #f5f5f5 0%, #ffffff 100%);
+    background: -webkit-linear-gradient(top, #f5f5f5 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #f5f5f5 0%, #ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#ffffff', GradientType=0);
 }
 
 .navbar-inverse {
-	background-color: transparent;
-	border-color: transparent;
+    background-color: transparent;
+    border-color: transparent;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
@@ -89,56 +88,55 @@ a:focus {
     margin-right: 30px;
 }
 
-.navbar-inverse .navbar-nav > li > a {
-	color: #2c3e50;
+.navbar-inverse .navbar-nav>li>a {
+    color: #2c3e50;
     font-size: 20px;
     font-weight: bold;
 }
 
-.navbar-inverse .navbar-nav > li > a:hover {
+.navbar-inverse .navbar-nav>li>a:hover {
     color: #2c3e50;
     opacity: 0.7;
 }
 
 /* logo */
+
 .navbar-brand {
     font-family: 'Damion', cursive;
-
-	font-size: 43px;
+    font-size: 43px;
     color: #2c3e50 !important;
     /*color: #2980b9 !important;*/
-
     letter-spacing: -1px;
     padding: 35px !important;
 }
 
 .navbar-inverse .navbar-brand {
-	color: white;
+    color: white;
 }
 
 .navbar-inverse .navbar-toggle {
-	border-color: transparent;
+    border-color: transparent;
 }
 
 .progress-bar-theme {
-  background-color: #1abc9c;
+    background-color: #1abc9c;
 }
 
 /* Helpers */
 
 .mt {
-	margin-top: 40px;
-	margin-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .pt {
-	padding-top: 20px;
-	padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 #ww {
-	padding-top: 10px;
-	padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #ww a {
@@ -146,13 +144,13 @@ a:focus {
 }
 
 #ww h1 {
-	font-size: 26px;
+    font-size: 26px;
     font-weight: bold;
 }
 
 #www {
-	padding-top: 10px;
-	padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #www a {
@@ -160,12 +158,12 @@ a:focus {
 }
 
 #footer {
-	padding-top: 50px;
-	padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #footer p {
-	color: #999;
+    color: #999;
 }
 
 #footer ul {
@@ -173,15 +171,16 @@ a:focus {
     padding: 0;
     margin: 0;
 }
+
 #footer ul li {
     display: inline;
     padding-right: 10px;
 }
 
 #footer h4 {
-	color: #777;
-	text-transform: uppercase;
-	padding-bottom: 20px;
+    color: #777;
+    text-transform: uppercase;
+    padding-bottom: 20px;
 }
 
 #footer a {
@@ -198,88 +197,95 @@ a:focus {
 /* +++++ Color Wraps / Blog Page +++++ */
 
 #grey {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	background-color: #f2f2f2;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f2f2f2;
 }
 
 #white {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	background-color: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #ffffff;
 }
 
 /* Blog Date*/
+
 bd {
-	font-size: 12px;
-	text-transform: uppercase;
-	color: #d2d2d2;
-	font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #d2d2d2;
+    font-weight: 700;
 }
 
 /* Blog Author*/
+
 ba {
-	font-size: 12px;
-	text-transform: uppercase;
+    font-size: 12px;
+    text-transform: uppercase;
 }
 
 /* Blog Quote */
+
 .bq {
-	font-size: 22px;
-	padding-top: 30px;
+    font-size: 22px;
+    padding-top: 30px;
 }
 
 /* Blog Tags */
+
 bt {
-	font-size: 12px;
+    font-size: 12px;
 }
 
 .zoom {
-    display:block;
-    position:relative;
-    overflow:hidden;
+    display: block;
+    position: relative;
+    overflow: hidden;
     width: 200px;
     border: 1px solid #e0e0e0;
 }
 
 .zoomOverlay {
-    position:absolute;
-    top:0; left:0;
-    bottom:0; right:0;
-    display:none;
-    background-image:url(../img/zoom.png);
-    background-repeat:no-repeat;
-    background-position:center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+    background-image: url(../img/zoom.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .zoom2 {
-	opacity: 1;
+    opacity: 1;
 }
 
 .zoom2:hover {
-	opacity: 0.5;
+    opacity: 0.5;
 }
 
 /* glyphicon Configuration */
 
 .glyphicon {
-	font-size: 40px;
-	color: #1abc9c;
+    font-size: 40px;
+    color: #1abc9c;
 }
 
 .project-name {
-	margin-top: 0;
+    margin-top: 0;
 }
 
 .col-lg-4 a {
-	display: inline-block;
+    display: inline-block;
 }
 
 .col-lg-6 {
-	text-align: center;
+    text-align: center;
 }
+
 .col-lg-6 img {
-	display: inline-block;
+    display: inline-block;
 }
 
 .text-align-center {
@@ -293,6 +299,7 @@ bt {
 }
 
 /* indicate apple, android, html5 and other code with icon */
+
 .project-name i, #www h3 i {
     color: #999;
 }
@@ -302,18 +309,20 @@ h1.welcome-message {
 }
 
 a.download-resume {
-    color: #34495e;
+    color: white;
     text-decoration: none !important;
-    background: white;
-    padding: 5px 12px 5px 12px;
-    border: 1px solid #e5e5e5;
+    background: #2ecc71;
+    padding: 10px 14px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
 }
+
 a.download-resume:hover {
     background: #2ecc71;
-    border: 1px solid #27ae60;
-    color: white;
 }
-a.download-resume:hover i {
+
+a.download-resume i, a.download-resume:hover i {
     color: white;
 }
 
@@ -326,25 +335,26 @@ a.download-resume:hover i {
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color:#e5e5e5 !important;
+    border-color: #e5e5e5 !important;
 }
 
 ul.list-unstyled li {
     display: block;
     margin-bottom: 5px;
 }
+
 ul.list-unstyled a {
     text-decoration: none !important;
     color: #27ae60;
 }
+
 ul.list-unstyled a:hover {
     opacity: 0.7;
 }
+
 ul.list-unstyled p {
     padding: 0;
     margin: 0 0 20px 0;
     font-size: 15px;
     color: #777;
 }
-
-
